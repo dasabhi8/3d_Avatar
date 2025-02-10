@@ -3,9 +3,9 @@
     // Default configuration options
     var defaults = {
       containerId: 'chatbot-container',  // The element ID where the widget will be injected
-      cssUrl: 'style.css',               // Local path to the CSS file
-      videoPathidle: './video/idle_1734937479631.mp4',              // Local path to the video folder
-      videoPathtalk: './video/id6d1.mp4'          // Local path to the video folder
+      cssUrl: 'https://dasabhi8.github.io/3d_Avatar/style.css',               // Local path to the CSS file
+      videoPathidle: 'https://dasabhi8.github.io/3d_Avatar//video/idle_1734937479631.mp4',              // Local path to the video folder
+      videoPathtalk: 'https://dasabhi8.github.io/3d_Avatar//video/id6d1.mp4'          // Local path to the video folder
     };
   
     // Merge user options with defaults
