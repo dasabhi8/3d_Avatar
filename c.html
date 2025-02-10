@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to the Chatbot</h1>
+            <p>
+                This is a simple chatbot that can help you with your queries.
+            </p>
+        </section>
+    </main>
+  <!-- Chatbot Widget Embed Code -->
+<div id="chatbot-container"></div>
+<script src="chatbot-widget.js"></script>
+<script>
+  // Initialize the widget using local paths.
+  ChatbotWidget.init({
+    containerId: 'chatbot-container', // The ID of the element where the widget will appear
+    cssUrl: 'style.css',              // Path to the CSS file
+    videoPathidle: './video/idle_1734937479631.mp4',              // Local path to the video folder
+    videoPathtalk: './video/id6d1.mp4'          // Local path to the video folder
+    // Path to the folder containing the video files
+  });
+</script>
+
+</body>
+</html>
